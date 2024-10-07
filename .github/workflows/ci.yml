@@ -28,4 +28,6 @@ jobs:
       # Add behave command
       - name: Run behave
         run:  behave tests/test_functional/features
+      - name: Run pyramid
+        run: ./tests/tests_pyramid.sh
 
